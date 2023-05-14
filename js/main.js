@@ -88,3 +88,82 @@
 
 //     myResult.innerHTML = smallerNum(firstInp.value, secondInp.value);
 // }
+
+
+// ? Task #6
+// ? Convert Number to String of Dashes
+
+// function Go(num) {
+//     return "-".repeat(num);
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+//     myResult.innerHTML = Go(inp1.value);
+// }
+
+// ? Task #7
+// ? Reverse and Capitalize
+
+// function reverseCapitalize(str) {
+//     return str.split('').reverse().join('').toUpperCase();
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+//     myResult.innerHTML = reverseCapitalize(inp1.value);
+// }
+
+
+// ? Task #8
+// ? Check if String Ending Matches Second String
+
+// function checkEnding(str1, str2) {
+//     return str1.slice(-str2.length) === str2
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInp = document.querySelector(".inp1");
+//     let secondInp = document.querySelector(".inp2");
+//     let res = document.querySelector(".res");
+
+//     res.innerHTML = checkEnding(firstInp.value, secondInp.value);
+// }
+
+// ? Task #9
+// ? Shuffle the Name
+
+// function nameShuffle(str) {
+//     return str.split(' ').reverse().join(' ')
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+//     myResult.innerHTML = nameShuffle(inp1.value);
+// }
+
+// ? Task #10
+// ? Is the String in Order?
+
+// function isInOrder(str) {
+//     return str.split('').sort().join('') === str
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+//     myResult.innerHTML = isInOrder(inp1.value);
+// }
