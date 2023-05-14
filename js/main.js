@@ -167,3 +167,35 @@
 //     let myResult = document.querySelector(".result");
 //     myResult.innerHTML = isInOrder(inp1.value);
 // }
+
+// ? Task #11
+// ? Is the String a Palindrome?
+
+// function checkPalindrome(str) {
+//     return str.split('').reverse().join('') === str;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+//     myResult.innerHTML = checkPalindrome(inp1.value);
+// }
+
+// ? Task #12
+// ? Strange Pair
+
+// function isStrangePair(str1, str2) {
+//     return str1[0] === str2[str2.length - 1] && str1[str1.length - 1] === str2[0]
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let firstInp = document.querySelector(".inp1");
+//     let secondInp = document.querySelector(".inp2");
+//     let myRes = document.querySelector(".result");
+
+//     myRes.innerHTML = isStrangePair(firstInp.value, secondInp.value)
+// }
