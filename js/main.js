@@ -260,3 +260,53 @@
 
 //     res.innerHTML = googlify(inp1.value);
 // }
+
+// ? Task #16
+// ? Check if a String Contains only Identical Characters
+
+// function isIdentical(s) {
+//     return s.split('').reverse().join('') === s;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = isIdentical(inp1.value);
+// }
+
+// ? Task #17
+// ? Letters Only
+
+// function lettersOnly(str) {
+//     let a = /[A-Z]/gi;
+//     return str.match(a).join('');
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = lettersOnly(inp1.value);
+// }
+
+// ? Task #18
+// ? Recursion: Reverse a String
+// ! Try to solve in Recursion !!!
+
+// function reverse(str) {
+//     return str.split('').reverse().join('');
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = reverse(inp1.value);
+// }
