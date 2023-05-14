@@ -310,3 +310,28 @@
 
 //     res.innerHTML = reverse(inp1.value);
 // }
+
+// ? Task #19
+// ? Total Number of Unique Characters
+
+// function countUnique(s1, s2) {
+//     let arr = [];
+//     let cnt = 0;
+//     let b = s1.concat(s2);
+//     arr = b.split('').sort();
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] != arr[i + 1])
+//             cnt++;
+//     }
+//     return cnt;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let inp2 = document.querySelector(".inp2");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = countUnique(inp1.value, inp2.value);
+// }
