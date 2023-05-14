@@ -199,3 +199,64 @@
 
 //     myRes.innerHTML = isStrangePair(firstInp.value, secondInp.value)
 // }
+
+// ? Task #13
+// ? Edaaaaabit
+
+// function howManyTimes(num) {
+//     let startStr = 'Ed';
+//     let endStr = 'bit';
+//     let myStr = 'a';
+//     let arr = [];
+//     for (let i = 1; i <= num; i++) {
+//         arr.push(myStr);
+//     }
+//     return `${startStr}${arr.join('')}${endStr}`;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let firstInp = document.querySelector(".inp1");
+//     let myRes = document.querySelector(".result");
+
+//     myRes.innerHTML = howManyTimes(firstInp.value)
+// }
+
+// ? Task #14
+// ? Repeating Letters N Times
+
+// function repeat(str, n) {
+//     let arr = [];
+//     arr = str.split('').map(elem => elem.repeat(n));
+//     return arr.join('');
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let inp2 = document.querySelector(".inp2");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = repeat(inp1.value, inp2.value);
+// }
+
+// ? Task #15
+// ? The Full Length of a Google
+
+// function googlify(n) {
+//     let str = "o";
+//     if (n > 1)
+//         return `G${str.repeat(n)}gle`;
+//     return "invalid";
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = googlify(inp1.value);
+// }
