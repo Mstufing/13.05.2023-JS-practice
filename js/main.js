@@ -335,3 +335,118 @@
 
 //     res.innerHTML = countUnique(inp1.value, inp2.value);
 // }
+
+// ? Task #20
+// ? Lexicographically First and Last
+
+// function firstAndLast(s) {
+//     let sort = s.split('').sort().join('');
+//     let reverse = s.split('').sort().reverse().join('');
+//     return [sort, reverse];
+// }
+
+// let myButton = document.querySelector(".btn");
+
+// myButton.onclick = () => {
+//     let myInput = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+
+//     myResult.innerHTML = firstAndLast(myInput.value);
+// }
+
+// ? Task #21
+// ? Re-Form the Word
+
+// function getWord(left, right) {
+//     let con = left.concat(right)
+//     return con.toUpperCase()[0] + con.substring(1, con.length);
+// }
+
+// let myButton = document.querySelector(".btn");
+
+// myButton.onclick = () => {
+//     let myFirstInput = document.querySelector(".inp1");
+//     let mySecondInput = document.querySelector(".inp2");
+//     let myResult = document.querySelector(".result");
+
+//     myResult.innerHTML = getWord(myFirstInput.value, mySecondInput.value);
+// }
+
+// ? Task #22
+// ? What's Hiding Amongst the Crowd?
+
+// function detectWord(str) {
+//     let regex = /[a-z]/g;
+//     return str.match(regex).join('');
+// }
+
+// let myButton = document.querySelector(".btn");
+
+// myButton.onclick = () => {
+//     let myFirstInput = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".result");
+
+//     myResult.innerHTML = detectWord(myFirstInput.value);
+// }
+
+// ? Task #23
+// ? Count Instances of a Character in a String
+
+// function charCount(myChar, str) {
+//     let arr = [];
+//     arr = str.split('').filter(elem => elem === myChar);
+//     return arr.length;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondInp = document.querySelector('.inp2');
+//     let res = document.querySelector('.result');
+
+//     res.innerHTML = charCount(firstInp.value, secondInp.value);
+// }
+
+// ? Task #24
+// ? Incorrect Import Statement
+// ! Is there another way to solve this task ?!
+
+// function fixImport(s) {
+//     let [first, second, third, fourth] = s.split(" ")
+//     return `${third} ${fourth} ${first} ${second}`
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let res = document.querySelector('.result');
+
+//     res.innerHTML = fixImport(firstInp.value);
+// }
+
+// ? Task #25
+// ? Error Messages
+
+// function error(n) {
+//     let obj = {
+//         1: "Check the fan: e1",
+//         2: "Emergency stop: e2",
+//         3: "Pump Error: e3",
+//         4: "c: e4",
+//         5: "Temperature Sensor Error: e5",
+//     }
+//     if (n != 1 && n != 2 && n != 3 && n != 4 && n != 5)
+//         return 101;
+//     return `${obj[n]}`;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let res = document.querySelector('.result');
+
+//     res.innerHTML = error(firstInp.value);
+// }
